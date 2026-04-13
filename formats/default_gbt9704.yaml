@@ -1,0 +1,60 @@
+# GB/T 9704 国家标准公文格式（默认）
+# 此文件为内置默认值，无需手动导入
+# 可复制此文件修改后作为自定义格式使用
+
+name: "GB/T 9704 国家标准"
+
+page:
+  top_cm: 3.7
+  bottom_cm: 3.5
+  left_cm: 2.8
+  right_cm: 2.6
+  page_size: A4
+
+fonts:
+  heading1:
+    name: "方正小标宋简体"  # 文件标题
+    size_pt: 22             # 二号
+    bold: false
+    align: center
+  heading2:
+    name: "黑体"            # 一级章节标题
+    size_pt: 16             # 三号
+    bold: false
+    align: left
+  heading3:
+    name: "楷体_GB2312"     # 二级章节标题
+    size_pt: 16
+    bold: false
+    align: left
+  body:
+    name: "仿宋_GB2312"     # 正文
+    size_pt: 16
+    bold: false
+    align: justify
+  header:
+    name: "仿宋_GB2312"
+    size_pt: 14             # 四号
+    bold: false
+  footer:
+    name: "宋体"
+    size_pt: 14             # 四号
+    bold: false
+
+paragraph:
+  line_spacing_pt: 28       # 固定值28磅
+  first_line_indent_chars: 2
+  space_before_pt: 0
+  space_after_pt: 0
+
+structure:
+  levels:
+    - "一、"
+    - "（一）"
+    - "1."
+    - "（1）"
+
+page_number:
+  format: "—{n}—"
+  odd_align: right           # 单页靠右
+  even_align: left           # 双页靠左

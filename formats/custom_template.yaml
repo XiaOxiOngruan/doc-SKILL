@@ -1,0 +1,35 @@
+# 自定义格式模板（可修改后使用）
+# 使用方式：
+#   在 SKILL.md 或调用命令中传入此文件路径
+#   未填写的字段自动继承 GB/T 9704 默认值
+
+name: "我的自定义格式"
+
+# 只需填写与默认值不同的字段，其余留空或删除即可
+
+page:
+  top_cm: 3.7
+  bottom_cm: 3.5
+  left_cm: 2.8
+  right_cm: 2.6
+
+fonts:
+  heading1:
+    name: "方正小标宋简体"
+    size_pt: 22
+    bold: false
+    align: center
+  body:
+    name: "仿宋_GB2312"
+    size_pt: 16
+    bold: false
+    align: justify
+
+paragraph:
+  line_spacing_pt: 28
+  first_line_indent_chars: 2
+
+page_number:
+  format: "— {n} —"    # 可改为 "第{n}页" 等格式
+  odd_align: right
+  even_align: left

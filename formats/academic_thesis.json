@@ -1,0 +1,95 @@
+{
+  "name": "学术论文（高校通用）",
+  "page": {
+    "top_cm": 2.5,
+    "bottom_cm": 2.5,
+    "left_cm": 3.0,
+    "right_cm": 2.5,
+    "page_size": "A4"
+  },
+  "fonts": {
+    "cover_title": {
+      "name": "黑体",
+      "size_pt": 18,
+      "bold": true,
+      "align": "center"
+    },
+    "heading1": {
+      "name": "黑体",
+      "size_pt": 15,
+      "bold": true,
+      "align": "center"
+    },
+    "heading2": {
+      "name": "黑体",
+      "size_pt": 14,
+      "bold": true,
+      "align": "left"
+    },
+    "heading3": {
+      "name": "黑体",
+      "size_pt": 12,
+      "bold": true,
+      "align": "left"
+    },
+    "body": {
+      "name": "宋体",
+      "size_pt": 12,
+      "bold": false,
+      "align": "justify"
+    },
+    "abstract": {
+      "name": "宋体",
+      "size_pt": 12,
+      "bold": false,
+      "align": "justify"
+    },
+    "abstract_en": {
+      "name": "Times New Roman",
+      "size_pt": 12,
+      "bold": false,
+      "align": "justify"
+    },
+    "reference": {
+      "name": "宋体",
+      "size_pt": 10.5,
+      "bold": false,
+      "align": "left"
+    },
+    "caption": {
+      "name": "宋体",
+      "size_pt": 10.5,
+      "bold": false,
+      "align": "center"
+    },
+    "header": {
+      "name": "宋体",
+      "size_pt": 10.5,
+      "bold": false
+    },
+    "footer": {
+      "name": "宋体",
+      "size_pt": 10.5,
+      "bold": false
+    }
+  },
+  "paragraph": {
+    "line_spacing_pt": 22,
+    "first_line_indent_chars": 2,
+    "space_before_pt": 0,
+    "space_after_pt": 6
+  },
+  "structure": {
+    "levels": [
+      "第一章",
+      "1.1",
+      "1.1.1",
+      "1.1.1.1"
+    ]
+  },
+  "page_number": {
+    "format": "{n}",
+    "odd_align": "center",
+    "even_align": "center"
+  }
+}
